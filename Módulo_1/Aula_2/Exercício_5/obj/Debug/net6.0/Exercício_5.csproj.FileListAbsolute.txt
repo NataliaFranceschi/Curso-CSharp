@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\bin\Debug\net6.0\Exercício_5.exe
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\bin\Debug\net6.0\Exercício_5.deps.json
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\bin\Debug\net6.0\Exercício_5.runtimeconfig.json
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\bin\Debug\net6.0\Exercício_5.dll
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\bin\Debug\net6.0\Exercício_5.pdb
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.dll
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\refint\Exercício_5.dll
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.pdb
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\Exercício_5.genruntimeconfig.cache
+C:\Users\Usuario\Documents\Curso C#\Módulo_1\Aula_2\Exercício_5\obj\Debug\net6.0\ref\Exercício_5.dll
