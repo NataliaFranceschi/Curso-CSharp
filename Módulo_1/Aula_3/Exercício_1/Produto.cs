@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercício_1
+﻿namespace Exercício_1
 {
     public class Produto
     {
-        string Nome = "";
-        double Preco = 0;
-        int Quantidade = 0;
+        public string Nome = "";
+        public double Preco = 0;
+        public int Quantidade = 0;
 
         public double ValorTotalEmEstoque()
         {
@@ -26,12 +20,20 @@ namespace Exercício_1
         {
             if (_quantidade > Quantidade)
             {
-                Console.WriteLine("Quantidade em estoque não é suficiente");
+                Console.WriteLine("Quantidade em estoque não é suficiente.");
             } else
             {
                 Quantidade -= _quantidade;
             }
         }
 
+        public void RelatorioProduto()
+        {
+            Console.WriteLine("Dados produto:");
+            Console.WriteLine($"Produto: {Nome}");
+            Console.WriteLine($"Preço: {Preco}");
+            Console.WriteLine($"Quantidade: {Quantidade}");
+            Console.WriteLine($"Valor total em estoque: {ValorTotalEmEstoque()}");
+        }
     }
 }
