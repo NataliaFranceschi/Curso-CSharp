@@ -6,7 +6,9 @@
         {
             List<IEmpresa> empresas = new List<IEmpresa>();
 
-            IEmpresa varejo = new Varejo("MercadoI", "Supermercado", "98765432100001", Tipo.EmpresaIndividual);
+            EnviarNotificacaoWhatsApp notificacao = new EnviarNotificacaoWhatsApp();
+
+            IEmpresa varejo = new Varejo("MercadoI", "Supermercado", "98765432100001", Tipo.EmpresaIndividual, notificacao);
             IEmpresa empreiteira = new Empreiteira("EmpreiteiraI", "Empreiteira Ltda", "12345678900001", Tipo.SociedadeLimitadaEmpresarial);
 
             empresas.Add(varejo);
