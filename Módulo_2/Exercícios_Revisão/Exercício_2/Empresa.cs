@@ -20,5 +20,13 @@ namespace Exercício_2
             CNPJ = cNPJ;
             Tipo = tipo;
         }
+
+        public void InformacoesEmpresa()
+        {
+            Console.WriteLine($"Nome Fantasia: {NomeFantasia}");
+            Console.WriteLine($"Razão Social: {RazaoSocial}");
+            Console.WriteLine($"CNPJ: {CNPJ}");
+            Console.WriteLine($"Tipo: {Tipo}");
+        }
     }
 }
