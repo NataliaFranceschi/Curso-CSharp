@@ -16,12 +16,5 @@ namespace Exercício_2
             Console.WriteLine("Venda de serviço realizada!");
         }
 
-        public void InformacoesEmpresa()
-        {
-            Console.WriteLine($"Nome Fantasia: {NomeFantasia}");
-            Console.WriteLine($"Razão Social: {RazaoSocial}");
-            Console.WriteLine($"CNPJ: {CNPJ}");
-            Console.WriteLine($"Tipo: {Tipo}");
-        }
     }
 }
