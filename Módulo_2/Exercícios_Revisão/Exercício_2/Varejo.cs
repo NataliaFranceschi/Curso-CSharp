@@ -8,12 +8,17 @@ namespace Exercício_2
 {
     internal class Varejo : Empresa, IEmpresa
     {
-        public Varejo(string nomeFantasia, string razaoSocial, string cNPJ, Tipo tipo)
-                     : base(nomeFantasia, razaoSocial, cNPJ, tipo) { }
+        public EnviarNotificacaoWhatsApp EnviarNotificacaoWhatsApp { get; private set; }
+        public Varejo(string nomeFantasia, string razaoSocial, string cNPJ, Tipo tipo, EnviarNotificacaoWhatsApp notificacao)
+                     : base(nomeFantasia, razaoSocial, cNPJ, tipo) 
+        {
+            EnviarNotificacaoWhatsApp = notificacao;
+        }
 
         public void RealizarVenda()
         {
             Console.WriteLine("Venda do produto realizada!");
+            EnviarNotificacaoWhatsApp.EnviarMensagemCliente();
         }
     }
 }
